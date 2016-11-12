@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int b, c, d, e;
+    int f[100];
+    b = c = d = e;
+    while((c = getchar()) != '0'){
+        if (c != ' ' && c != '\t' && c != '\n'){
+            if (d == 1) {putchar('\n'); d = 0;}
+            b++;
+            {
+                for(e = 0; e < (b - 1); ++e)
+                    f[e] = 1;
+            }
+            if (f[e] = 1) printf("-");}
+            else d = 1;
+        }
+    }
