@@ -15,6 +15,6 @@ int main()
                     f[e] = 1;
             }
             if (f[e] = 1) printf("-");}
-            else d = 1;
+        else d = 1;
         }
     }
